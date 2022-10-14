@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="style.css">
+<div>
+    <p>Длина изделия (в мм): <input id="board-length-input" type="text"></p>
+    <p>Ширина изделия (в мм): <input id="board-width-input" type="text"></p>
+    <p>Толщина изделия (в мм): <input id="thickness-length-input" type="text"></p>
+    <p>Количество штук: <input id="count-borders" type="text"></p>
+    <p>
+        <select name="furniture-board-type" id="board-type">
+            <option value="400">Щит хвоя</option>
+            <option value="600">Щит ясень</option>
+            <option value="700">Щит дуб</option>
+        </select>
+    </p>
+
+    <div id="result-area">
+        <button type="button" name="count-button" id="count-button">Рассчитать</button>
+        <div id="result"></div>
+    </div>
+</div>
+<script src="script.js"></script>
